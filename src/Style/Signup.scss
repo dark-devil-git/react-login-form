@@ -1,0 +1,145 @@
+.bg{
+    background-image: url("../Image/bg.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+	width: 0px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0px;
+}
+.signup-container{
+    width:90%;
+    margin:0px auto;
+    .backdrop-filter{
+        backdrop-filter: blur(50px);
+    }
+    .signup{
+        text-align: center;
+    }
+    .signup h1{
+        background: linear-gradient(to top,rgb(255, 55, 88),rgb(0, 229, 255));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .overflow{
+        overflow: scroll;
+    }
+    .col-1{
+        width:8.33%;
+        padding: 0px 15px;
+    }
+    .col-2{
+        width:16.66%;
+        padding: 0px 15px;
+    }
+    .col-3{
+        width:25%;
+        padding: 0px 15px;
+    }
+    .col-4{
+        width:33.33%;
+        padding: 0px 15px;
+    }
+    .col-5{
+        width:41.66%;
+        padding: 0px 15px;
+    }
+    .col-6{
+        width:50%;
+        padding: 0px 15px;
+    }
+    .col-7{
+        width:58.33%;
+        padding: 0px 15px;
+    }
+    .col-8{
+        width:66.66%;
+        padding: 0px 15px;
+    }
+    .col-9{
+        width:75%;
+        padding: 0px 15px;
+    }
+    .col-10{
+        width:83.33%;
+        padding: 0px 15px;
+    }
+    .col-11{
+        width:91.66%;
+        padding: 0px 15px;
+    }
+    .col-12{
+        width:100%;
+        padding: 0px 15px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .justify-content-center{
+        justify-content: center;
+    } 
+    .justify-content-around{
+        justify-content: space-around;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    .vh-100{
+        height: 100vh;
+    }
+    input[type=text],input[type=email],input[type=password]{
+        width: 90%;
+        padding: 10px 0px 10px 15px;
+        border-radius: 6px;
+        background-color: rgba(245, 245, 245, 0.779);
+        margin: 14px 0px;
+        border:2px solid white;
+        outline: none;
+    }
+    .pos{
+        position: relative;
+    }
+    .pos span{
+        position: absolute;
+        left:30px;
+        top:22px;
+        pointer-events: none;
+        transition: .5s ease;
+    }
+    .pos input:focus~span,.pos input:valid~span{
+        transform: translateX(0px) translateY(-24px);
+        background:linear-gradient(to left,pink,rgb(135, 243, 255));
+        color: white;
+        font-size: 14px;
+        padding: 3px 10px;
+        border-radius: 6px;
+    }
+    button{
+        width:50%;
+        padding: 10px;
+        border-radius: 22px;
+        border-width: 0px;
+        transition: all .3s ease-in-out;
+        margin-bottom: 20px;
+    }
+    button:hover{
+        background:linear-gradient(to left,pink,rgb(135, 243, 255));
+        color:white;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .error{
+        color:red;
+        margin: 0px;
+    }
+}

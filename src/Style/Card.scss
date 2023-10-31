@@ -1,0 +1,156 @@
+.bg{
+    background-image: url("../Image/bg.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+::-webkit-scrollbar{
+	width: 0px;
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 0px;
+}
+.card-container{
+    width:90%;
+    margin:0px auto;
+    .backdrop-filter{
+        backdrop-filter: blur(50px);
+    }
+    .padding{
+        padding: 50px !important;
+    }
+    .card{
+        text-align: center;
+    }
+    .card h1{
+        background: linear-gradient(to top,rgb(255, 55, 88),rgb(0, 229, 255));
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .overflow{
+        overflow: scroll;
+    }
+    .col-1{
+        width:8.33%;
+        padding: 0px 15px;
+    }
+    .col-2{
+        width:16.66%;
+        padding: 0px 15px;
+    }
+    .col-3{
+        width:25%;
+        padding: 0px 15px;
+    }
+    .col-4{
+        width:33.33%;
+        padding: 0px 15px;
+    }
+    .col-5{
+        width:41.66%;
+        padding: 0px 15px;
+    }
+    .col-6{
+        width:50%;
+        padding: 0px 15px;
+    }
+    .col-7{
+        width:58.33%;
+        padding: 0px 15px;
+    }
+    .col-8{
+        width:66.66%;
+        padding: 0px 15px;
+    }
+    .col-9{
+        width:75%;
+        padding: 0px 15px;
+    }
+    .col-10{
+        width:83.33%;
+        padding: 0px 15px;
+    }
+    .col-11{
+        width:91.66%;
+        padding: 0px 15px;
+    }
+    .col-12{
+        width:100%;
+        padding: 0px 15px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .justify-content-center{
+        justify-content: center;
+    } 
+    .justify-content-around{
+        justify-content: space-around;
+    }
+    .align-items-center{
+        align-items: center;
+    }
+    .vh-100{
+        height: 100vh;
+    }
+    
+    button{
+        width:20%;
+        padding: 10px;
+        border-radius: 22px;
+        border-width: 0px;
+        transition: all .3s ease-in-out;
+        margin: 20px 0px;
+    }
+    button:hover{
+        background:linear-gradient(to left,pink,rgb(135, 243, 255));
+        color:white;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .error{
+        color:red;
+        font-size: 18px;
+    }
+    .card{
+        margin: 10px;
+    }
+    .addtocart{
+        background-color: pink;
+        padding:10px 15px;
+        cursor: pointer;
+        span{
+            color:white;
+            font-size: 18px;
+        }
+    }
+    .card-count{
+        position: relative;
+        color:white;
+        cursor: pointer;
+        sup{
+            height: 30px;
+            width:30px;
+            border-radius: 50%;
+            background-color: pink;
+            color:white;
+            display: inline-block;
+            position: absolute;
+            top:-15px;
+        }
+    }
+    table,th,td{
+        margin-top: 30px;
+        border-collapse: collapse;
+        border: 1px solid whitesmoke;
+        transition: .8s;
+        color: white;
+    }
+}
